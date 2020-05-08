@@ -14,10 +14,10 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
 In order to manually log the connection's speed you can run `speedtest-logger.py`. Parameters required for the run are an existing directory where the logs will be stored, and optional server IDs from where the script will choose the best (if empty, every server available will be considered). The command will look like one of these:
 
->`python speedtest-logger.py /relative/path/to/log/directory`
->`python speedtest-logger.py /relative/path/to/log/directory 1234`
->`python speedtest-logger.py /relative/path/to/log/directory 1234 5050`
->`python speedtest-logger.py /relative/path/to/log/directory 1234 5050 999`
+>`python speedtest-logger.py /relative/path/to/log/directory`  
+>`python speedtest-logger.py /relative/path/to/log/directory 1234`  
+>`python speedtest-logger.py /relative/path/to/log/directory 1234 5050`  
+>`python speedtest-logger.py /relative/path/to/log/directory 1234 5050 999`  
 
 Infinite server IDs can be added.
 
@@ -36,7 +36,7 @@ More information about the scheduling library [here](https://pypi.org/project/py
 
 The Speedtest Logger will generate, in the specified directory, a CSV file for each different date the script has been executed. Every file's name will be the date of the tests it contains (in yyyy-mm-dd format), and it will contain three columns (Time, Download speed, Upload speed). Both speed values will be expressed in mb/s. It will look like this:
 
-`Time,Download speed,Upload speed`
-`17:00,5.32,2.37`
-`17:10,4.09,3.15`
+`Time,Download speed,Upload speed`  
+`17:00,5.32,2.37`  
+`17:10,4.09,3.15`  
 `17:20,4.89,2.58` 
