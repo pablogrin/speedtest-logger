@@ -22,6 +22,7 @@ In order to manually log the connection's speed you can run `speedtest-logger.py
 Infinite server IDs can be added.
 
 More information about the speedtest library [here](https://pypi.org/project/speedtest-cli/).
+A list of available servers can be found [here](https://c.speedtest.net/speedtest-servers-static.php)
 
 ## Scheduling
 The `cron` directory contains three extra Python scripts, that can be used to manage the cron job to schedule the logger run. 
